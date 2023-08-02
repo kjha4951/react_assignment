@@ -22,7 +22,7 @@ function Color(){
      return(
         <div className='div1'>
             <button onClick={
-                ()=>{changecolor('yellow')}
+                ()=>{changecolor()}
             }   > Change color</button>
 
             <button onClick={change} style={{backgroundColor: click }}>click on me to see the color</button>
